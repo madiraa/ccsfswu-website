@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved - CCSF Student Workers Union</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">CCSF<span>SWU</span></a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="committee.html">Our Team</a></li>
+        <li><a href="forms.html" class="active">Get Involved</a></li>
+        <li><a href="papers.html">Papers</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <h1>Get Involved</h1>
+    <p>Whether you're a student worker or a community supporter, there's a place for you in this movement.</p>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('student')">Student Worker Form</button>
+        <button class="tab-btn" onclick="showTab('community')">Community Support Form</button>
+      </div>
+
+      <div id="student" class="tab-content active">
+        <div class="form-section">
+          <div class="card" style="text-align: center; padding: 3rem;">
+            <div class="section-header" style="margin-bottom: 2rem;">
+              <h2>Student Worker Interest Form</h2>
+              <p>Take the first step toward a better workplace. This form is completely confidential and will only be seen by student worker organizers. Your personal information will not be shared with administration.</p>
+            </div>
+            <p style="margin-bottom: 2rem; color: var(--gray);">This form is for current student workers only. If you are not a student worker but would like to support our effort, please use the Community Support Form.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSen7fIaMedfxvR2gJidHLtumbdjSb3xiCG0zOpbjcStfzYeZQ/viewform?usp=header" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.25rem 2.5rem;">Fill Out Interest Form</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="community" class="tab-content">
+        <div class="form-section">
+          <div class="card" style="text-align: center; padding: 3rem;">
+            <div class="section-header" style="margin-bottom: 2rem;">
+              <h2>Community & Supporters Form</h2>
+              <p>Not a CCSF student worker? You can still stand with us. This form is for current students, faculty, staff, alumni, SF residents, and anyone who wants to support our organizing effort.</p>
+            </div>
+            <p style="margin-bottom: 2rem; color: var(--gray);">We welcome support from the entire CCSF community and beyond. Your solidarity makes our campaign stronger.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScdWFY4NWyN3_u6oaYVxtymFhpJhW63AIhthrO8l_zmaMknDQ/viewform?usp=header" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.25rem 2.5rem;">Fill Out Support Form</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Your Support Matters</h2>
+        <p>Building a union takes more than just workers—it takes a community.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">✊</div>
+          <h3>Strength in Numbers</h3>
+          <p>Every signature, every voice, every act of solidarity adds to our collective power. When the community stands with workers, employers take notice.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌉</div>
+          <h3>Building Bridges</h3>
+          <p>Labor struggles connect to broader movements for economic justice, education equity, and community wellbeing. Your support helps build those connections.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📣</div>
+          <h3>Amplifying Voices</h3>
+          <p>When community members speak up for student workers, it sends a powerful message that our cause has broad support beyond the campus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Confidentiality & Privacy</h2>
+      </div>
+      <div class="form-section">
+        <div class="card">
+          <p><strong>Your information is safe with us.</strong></p>
+          <br>
+          <p>We take your privacy seriously. Information submitted through these forms is used only for union organizing purposes and is never shared with CCSF administration, supervisors, or any third parties.</p>
+          <br>
+          <p>Under labor law, you have the right to organize without interference from your employer. If you ever experience retaliation for union activity, contact us immediately—we're here to support you.</p>
+          <br>
+          <p>Questions? Reach out to us at <strong>ccsfswu@proton.me</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">CCSFSWU</div>
+      <p>City College of San Francisco Student Workers Union</p>
+      <p style="margin-bottom: 1rem;"><a href="mailto:ccsfswu@proton.me" style="color: white;">ccsfswu@proton.me</a> · <a href="https://instagram.com/ccsfswu" target="_blank" style="color: white;">@ccsfswu</a></p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="committee.html">Our Team</a>
+        <a href="forms.html">Get Involved</a>
+        <a href="papers.html">Papers</a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CCSF Student Workers Union. Solidarity forever.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CCSFSWU//Meeting//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260313T163000
+DTEND:20260313T180000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:CCSFSWU Union Organizing Meeting
+DESCRIPTION:Weekly union organizing meeting.\n\nJoin via Zoom: https://ucsd.zoom.us/j/2154240168\n\nIn-person: Ocean Campus, Student Success Center (SSC), 2nd floor, outside Women's Resource Center Room 2112
+LOCATION:Ocean Campus, Student Success Center (SSC), 2nd floor, Room 2112
+URL:https://ucsd.zoom.us/j/2154240168
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
