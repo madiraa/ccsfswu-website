@@ -300,7 +300,7 @@ body {
 }
 
 .team-photo {
-  height: 200px;
+  height: 260px;
   background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
   display: flex;
   align-items: center;
