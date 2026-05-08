@@ -1,0 +1,9 @@
+# Never commit raw respondent data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# OS files
+.DS_Store
+Thumbs.db
