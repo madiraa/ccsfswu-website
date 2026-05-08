@@ -263,8 +263,10 @@
     const yM = cnt('member','Yes, definitely');
     document.getElementById('sr-yesMember').textContent = pct(yM);
     const cF = freq(r => r.concerns);
-    document.getElementById('sr-topConcern').textContent = cF[0][0];
-    document.getElementById('sr-topConcernSub').textContent = pct(cF[0][1]) + ' of respondents';
+    const topCount = cF[0][1];
+    const topTied = cF.filter(([,n]) => n === topCount).map(([name]) => name);
+    document.getElementById('sr-topConcern').textContent = topTied.join(' & ');
+    document.getElementById('sr-topConcernSub').textContent = pct(topCount) + ' of respondents each';
     document.getElementById('sr-core').textContent = pct(cntIn('involvement','Core committee'));
 
     // Sentiment donut
